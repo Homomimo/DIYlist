@@ -6,3 +6,7 @@ DOMAIN-SUFFIX,gaytorrent.ru
 DOMAIN-SUFFIX,tracker.gay-torrents.net
 DOMAIN-SUFFIX,gay-area.org
 DOMAIN-SUFFIX,tracker.gaytor.rent
+IP-CIDR,109.201.142.0/24,no-resolve
+IP-CIDR,152.67.198.0/24,no-resolve
+IP-CIDR,155.248.195.0/24,no-resolve
+IP-CIDR,129.159.33.0/24,no-resolve
