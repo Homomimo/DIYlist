@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,tracker.gay-torrents.net
 DOMAIN-SUFFIX,gay-area.org
 DOMAIN-SUFFIX,tracker.gaytor.rent
 DOMAIN-SUFFIX,gv.piggyboy.gay
+DOMAIN-SUFFIX,gvpig.homi.workers.dev
 IP-CIDR,109.201.142.161/32,no-resolve
 IP-CIDR,150.230.250.201/32,no-resolve
 IP-CIDR,146.56.114.211/32,no-resolve
