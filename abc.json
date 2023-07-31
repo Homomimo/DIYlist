@@ -88,7 +88,7 @@
             "tag": "netflix", 
             "type": "selector", 
             "outbounds": [
-                "🇸🇬 新加坡实验性 IEPL 中继1", 
+                "🇸🇬 新加坡实验性 IEPL 中继 1", 
                 "🇭🇰 香港实验性 IEPL 中继 1"
             ]
         },  
@@ -96,7 +96,7 @@
             "tag": "disney", 
             "type": "selector", 
             "outbounds": [
-                "🇸🇬 新加坡实验性 IEPL 中继1", 
+                "🇸🇬 新加坡实验性 IEPL 中继 1", 
                 "🇭🇰 香港实验性 IEPL 中继 1"
             ]
         }
