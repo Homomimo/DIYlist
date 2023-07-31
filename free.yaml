@@ -17,14 +17,13 @@ dns:
 proxies:
     - { name: '圣何塞ARM', type: vless, server: 192.9.233.68, port: 45125, udp: true, uuid: da942957-403d-4e1d-9186-c5c1fdc53a31, tls: true, servername: www.speedtest.net, flow: xtls-rprx-vision, network: tcp, reality-opts: {public-key: xwmQRKQioOfVq8GE86klm7tWZNxS1aDGsqamdGlZKE4, short-id: 9ada567a}, client-fingerprint: chrome}
     - { name: '春川ARM', type: vless, server: 144.24.82.14, port: 39839, udp: true, uuid: c550912c-4279-4b62-ec87-5978f8930d1a, tls: true, servername: www.speedtest.net, flow: xtls-rprx-vision, network: tcp, reality-opts: {public-key: VcqHivYGGoBkcxOI6cSSjQmneltstkb2OhvO53dyhEM, short-id: 7a3da6c2}, client-fingerprint: chrome}
-    - { name: '圣何塞tuic', type: tuic, server: sjtu.pigboy.ml, port: 43832, uuid: 8e0ca887-cf93-4c7b-936d-1991d62c976b, password: 171c8032, alpn: [h3], udp-relay-mode: quic, congestion-controller: bbr, disable-sni: true, reduce-rtt: true, request-timeout: 8000}
-    - { name: '春川tuic', type: tuic, server: cctu.pigboy.ml, port: 40729, uuid: 8669704f-1c0e-4244-ab94-fb5c8c86cc23, password: ac304864, alpn: [h3], udp-relay-mode: quic, congestion-controller: bbr, disable-sni: true, reduce-rtt: true, request-timeout: 8000}
+    - { name: '圣何塞tuic', type: tuic, server: sjtu.781069.xyz, port: 9230, uuid: 1d6709fa-4f55-4b43-993c-22676d4c2016, password: 7b6469c1, alpn: [h3], udp-relay-mode: quic, congestion-controller: bbr, disable-sni: true, reduce-rtt: true, request-timeout: 8000}
+    - { name: '春川tuic', type: tuic, server: cctu.781069, port: 28284, uuid: 253f319d-144c-4dd2-9829-fe596917212e, password: e6d554ea, alpn: [h3], udp-relay-mode: quic, congestion-controller: bbr, disable-sni: true, reduce-rtt: true, request-timeout: 8000}
     - { name: 'WarpV4', type: wireguard, server: 162.159.192.151, port: 988, ip: 172.16.0.2, ipv6: 2606:4700:110:8066:d805:c27a:219:9ddf, mtu: 1280, private-key: oGrkIMzbAgqHmbyjrW+HZgNK2jr2Ap6QXs53G/7Ea2k=, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}
 proxy-groups:
     - { name: Free, type: select, proxies: [自动选择,  'WarpV4', '圣何塞ARM', '春川ARM', '圣何塞tuic', '春川tuic'] }
     - { name: 自动选择, type: url-test, proxies: ['WarpV4', '圣何塞ARM', '春川ARM', '圣何塞tuic', '春川tuic'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
 rules:
-    - 'DOMAIN,sub.Free.io,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,Free'
     - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Free'
     - 'DOMAIN,safebrowsing.urlsec.qq.com,DIRECT'
