@@ -1,0 +1,8 @@
+{
+    "type": "shadowsocks",
+    "tag": "🇭🇰 claw-HK-SS",
+    "server": "8.217.68.7",
+    "server_port": 34181,
+    "method": "2022-blake3-aes-256-gcm",
+    "password": "AsUyXqF1tfIF5WCMU1Yoq3LYC/00diW+WOl7QrcEN9w="
+}
