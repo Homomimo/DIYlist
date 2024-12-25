@@ -4,3 +4,5 @@ DOMAIN-KEYWORD,gay-torrents
 DOMAIN-SUFFIX,gay-torrents.org
 DOMAIN-SUFFIX,tracker.gay-torrents.net
 DOMAIN-SUFFIX,gaytor.rent
+IP-CIDR,144.24.82.14/32
+IP-CIDR,155.248.195.205/32
